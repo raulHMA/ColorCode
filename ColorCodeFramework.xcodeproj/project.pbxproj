@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		C4FFB65E1D46669000FDF3FA /* color-palette-order.png in Resources */ = {isa = PBXBuildFile; fileRef = C4FFB65B1D46669000FDF3FA /* color-palette-order.png */; };
-		C4FFB6941D46708100FDF3FA /* ColorCodeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FFB6931D46708100FDF3FA /* ColorCodeFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4FFB6961D46709F00FDF3FA /* ColorCodeFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFB6951D46709F00FDF3FA /* ColorCodeFramework.m */; };
-		C4FFB69B1D46762400FDF3FA /* UIColor+ColorNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FFB6991D46762400FDF3FA /* UIColor+ColorNumber.h */; };
-		C4FFB69C1D46762400FDF3FA /* UIColor+ColorNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFB69A1D46762400FDF3FA /* UIColor+ColorNumber.m */; };
+		C4FFB6AB1D469CA400FDF3FA /* UIColor+ColorNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FFB6A91D469CA400FDF3FA /* UIColor+ColorNumber.h */; };
+		C4FFB6AC1D469CA400FDF3FA /* UIColor+ColorNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFB6AA1D469CA400FDF3FA /* UIColor+ColorNumber.m */; };
+		C4FFB6AE1D469CAD00FDF3FA /* ColorCodeFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FFB6AD1D469CAD00FDF3FA /* ColorCodeFramework.m */; };
+		C4FFB6B01D469D3600FDF3FA /* ColorCodeFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FFB6AF1D469D3600FDF3FA /* ColorCodeFramework.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C4FFB64E1D46666100FDF3FA /* ColorCodeFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorCodeFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FFB6531D46666100FDF3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4FFB65B1D46669000FDF3FA /* color-palette-order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "color-palette-order.png"; sourceTree = "<group>"; };
-		C4FFB6931D46708100FDF3FA /* ColorCodeFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorCodeFramework.h; sourceTree = "<group>"; };
-		C4FFB6951D46709F00FDF3FA /* ColorCodeFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorCodeFramework.m; sourceTree = "<group>"; };
-		C4FFB6991D46762400FDF3FA /* UIColor+ColorNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorNumber.h"; sourceTree = "<group>"; };
-		C4FFB69A1D46762400FDF3FA /* UIColor+ColorNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorNumber.m"; sourceTree = "<group>"; };
+		C4FFB6A91D469CA400FDF3FA /* UIColor+ColorNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorNumber.h"; sourceTree = "<group>"; };
+		C4FFB6AA1D469CA400FDF3FA /* UIColor+ColorNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorNumber.m"; sourceTree = "<group>"; };
+		C4FFB6AD1D469CAD00FDF3FA /* ColorCodeFramework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorCodeFramework.m; sourceTree = "<group>"; };
+		C4FFB6AF1D469D3600FDF3FA /* ColorCodeFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorCodeFramework.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +54,7 @@
 		C4FFB6501D46666100FDF3FA /* ColorCodeFramework */ = {
 			isa = PBXGroup;
 			children = (
+				C4FFB6AF1D469D3600FDF3FA /* ColorCodeFramework.h */,
 				C4FFB6981D46762400FDF3FA /* PrivateHeader */,
 				C4FFB6921D46708100FDF3FA /* PublicHeader */,
 				C4FFB6531D46666100FDF3FA /* Info.plist */,
@@ -65,8 +66,6 @@
 		C4FFB6921D46708100FDF3FA /* PublicHeader */ = {
 			isa = PBXGroup;
 			children = (
-				C4FFB6931D46708100FDF3FA /* ColorCodeFramework.h */,
-				C4FFB6951D46709F00FDF3FA /* ColorCodeFramework.m */,
 			);
 			path = PublicHeader;
 			sourceTree = "<group>";
@@ -74,8 +73,9 @@
 		C4FFB6981D46762400FDF3FA /* PrivateHeader */ = {
 			isa = PBXGroup;
 			children = (
-				C4FFB6991D46762400FDF3FA /* UIColor+ColorNumber.h */,
-				C4FFB69A1D46762400FDF3FA /* UIColor+ColorNumber.m */,
+				C4FFB6A91D469CA400FDF3FA /* UIColor+ColorNumber.h */,
+				C4FFB6AA1D469CA400FDF3FA /* UIColor+ColorNumber.m */,
+				C4FFB6AD1D469CAD00FDF3FA /* ColorCodeFramework.m */,
 			);
 			path = PrivateHeader;
 			sourceTree = "<group>";
@@ -87,8 +87,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4FFB6941D46708100FDF3FA /* ColorCodeFramework.h in Headers */,
-				C4FFB69B1D46762400FDF3FA /* UIColor+ColorNumber.h in Headers */,
+				C4FFB6B01D469D3600FDF3FA /* ColorCodeFramework.h in Headers */,
+				C4FFB6AB1D469CA400FDF3FA /* UIColor+ColorNumber.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,8 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4FFB69C1D46762400FDF3FA /* UIColor+ColorNumber.m in Sources */,
-				C4FFB6961D46709F00FDF3FA /* ColorCodeFramework.m in Sources */,
+				C4FFB6AC1D469CA400FDF3FA /* UIColor+ColorNumber.m in Sources */,
+				C4FFB6AE1D469CAD00FDF3FA /* ColorCodeFramework.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
