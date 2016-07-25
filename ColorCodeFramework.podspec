@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Raul Hahn" => "hahn.raul@gmail.com" }
   s.platform     = :ios, '9.0'
-  s.source       = { :git => 'https://github.com/raulhah/ColorCode.git', :commit => "7efe9fb97741633ae9135f0df2673022ca0a3a04" }
+  s.source       = { :git => "https://github.com/raulhah/ColorCode.git", :tag => "1.0.0" }
   s.source_files  = "ColorCodeFramework", "ColorCodeFramework/*.{h,m}", 'ColorCodeFramework/PublicHeaders'
   s.public_header_files = 'ColorCodeFramework/PublicHeaders/*.h'
   #s.private_header_files = 'PrivateHeader/*.h'
